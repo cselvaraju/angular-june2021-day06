@@ -7,7 +7,26 @@
   <table class="table table-striped table-hover">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>
+          Name
+          <!-- <span class="btn-group">
+            <button class="btn btn-primary btn-sm">
+              <i class="fa fa-sort-asc"></i>
+            </button>
+            <button class="btn btn-primary btn-sm">
+              <i class="class fa fa-sort-desc"></i>
+            </button>
+          </span> -->
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-sort-asc fa-stack-1x" (click)="sortAscending()"></i>
+          </span>
+          <span class="fa-stack-fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-sort-desc fa-stack-1x fa-inverse"></i>
+          </span>
+
+        </th>
         <th>City</th>
         <th>Action</th>
       </tr>

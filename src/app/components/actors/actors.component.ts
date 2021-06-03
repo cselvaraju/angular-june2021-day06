@@ -85,4 +85,8 @@ export class ActorsComponent implements OnInit {
     this.actorList.push(this.myActor)
     this.myActor = { name: '', city: '' };
   }
+
+  sortAscending() {
+    alert("Ascending Sort");
+  }
 }
